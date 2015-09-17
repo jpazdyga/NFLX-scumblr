@@ -1,7 +1,7 @@
 FROM jpazdyga/centos7-base
 MAINTAINER Jakub Pazdyga <jakub.pazdyga@ft.com>
 
-ENV SCUMBLR_EMAIL admin@lascalia.com
+ENV SCUMBLR_EMAIL testuser@somedomain.com
 ENV SCUMBLR_PASSWD scumblrtest
 
 RUN rpmdb --rebuilddb && \ 
